@@ -22,7 +22,7 @@ const Advice = () => {
   return (
     <Box
       sx={{
-        backgroundColor: COLORS.blue,
+        backgroundColor: COLORS.white,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -33,13 +33,13 @@ const Advice = () => {
       }}
       onClick={getAdvice}
     >
-      <Typography sx={{ color: COLORS.neonGreen, marginBottom: "1.5rem" }}>
+      <Typography sx={{ color: COLORS.black, marginBottom: "1.5rem" }}>
         {" "}
         Advice # {adviceData.slip.id}
       </Typography>
       <Typography
         sx={{
-          color: COLORS.grey,
+          color: COLORS.black,
           fontSize: "1.75rem",
           fontWeight: 600,
           textAlign: "center",
@@ -49,17 +49,18 @@ const Advice = () => {
       </Typography>
       <Button
         sx={{
-          backgroundColor: COLORS.neonGreen,
-          color: COLORS.darkblue,
+          backgroundColor: COLORS.yellow,
+          color: COLORS.black,
           borderRadius: "50%",
           maxHeight: "4rem",
+          border: "1.5px solid black",
           maxWidth: "4rem",
           position: "relative",
-          top: mobile ? 45 : 65,
+          top: 40,
 
           "&:hover": {
-            backgroundColor: COLORS.white,
-            color: COLORS.neonGreen,
+            backgroundColor: COLORS.pink,
+            color: COLORS.white,
           },
         }}
       >

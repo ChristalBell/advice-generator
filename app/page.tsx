@@ -13,7 +13,7 @@ const Home = () => {
         justifyContent: "center",
         height: "100vh",
 
-        backgroundColor: COLORS.darkblue,
+        backgroundColor: COLORS.yellow,
       }}
     >
       <Typography variant="h1">
